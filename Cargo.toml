@@ -1,0 +1,17 @@
+[package]
+name = "booties"
+version = "0.1.0"
+authors = ["juniper wilde <juniper.r.wilde@gmail.com>"]
+description = "math for warmth"
+license = "MIT"
+keywords = ["warmth"]
+homepage = "https://github.com/rosegardencult/booties"
+repository = "https://github.com/rosegardencult/booties"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["staticlib"]
