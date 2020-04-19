@@ -1,9 +1,9 @@
 [package]
 name = "booties"
-version = "0.1.0"
-authors = ["juniper wilde <juniper.r.wilde@gmail.com>"]
-description = "math for warmth"
-license = "MIT"
+version = "0.1.1"
+authors = ["june wilde <jewilde@rosegardencult.com>"]
+description = "physics for warmth"
+license = "MPL-2.0"
 keywords = ["warmth"]
 homepage = "https://github.com/rosegardencult/booties"
 repository = "https://github.com/rosegardencult/booties"
@@ -14,4 +14,4 @@ edition = "2018"
 
 [lib]
 path = "src/lib.rs"
-crate-type = ["staticlib"]
+crate-type = ["lib", "staticlib"]
